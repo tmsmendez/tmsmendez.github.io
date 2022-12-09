@@ -231,8 +231,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Mendez Echenagucia]
-  first_name: [Tomas]
+  last_name: [Méndez Echenagucia]
+  first_name: [Tomas, T.]
 
   style: apa
   locale: en
