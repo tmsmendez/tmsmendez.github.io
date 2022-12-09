@@ -167,12 +167,12 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - non_pages
+exclude: ['non_pages']
+  # - bin
+  # - Gemfile
+  # - Gemfile.lock
+  # - vendor
+  # - non_pages
 keep_files:
   - CNAME
   - .nojekyll
