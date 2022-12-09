@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: something
 title: about
 permalink: /
 subtitle: Assistant Professor - University of Washington.
