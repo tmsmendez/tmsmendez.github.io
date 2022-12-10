@@ -13,7 +13,7 @@ category:
     </div>
 </div>
 <div class="caption">
-    Photo: NBBJ
+    
 </div>
 
 You can also put regular text between your rows of images.
