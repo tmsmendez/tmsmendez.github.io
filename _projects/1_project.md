@@ -2,14 +2,14 @@
 layout: page
 title: Acoustic Meta-materials
 description: Design, modelling and fabrication of resonant absorbers and ventilated sound barriers.
-img: assets/img/nbbj_panel1.jpg
+img: assets/img/nbbj_panel1.png
 importance: 1
 category: 
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/nbbj_panel1.jpg" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/nbbj_panel1.png" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
