@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Some of my open-source projects / Python libraries.
 nav: true
 nav_order: 3
