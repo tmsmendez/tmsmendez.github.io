@@ -26,3 +26,8 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 <a href="https://www.linkedin.com/in/vidhyar28/">Vidhya Rajendran - UW Department of Architecture  </a>  
 <a href="https://www.cwu.edu/physics/andrew-piacsek">Andy Piacsek - Central Washington University </a>  
 <a href="https://www.nbbj.com/">NBBJ</a>  
+
+
+##### Publications
+
+<a href="https://asa.scitation.org/doi/10.1121/10.0009317">Design of broadband Helmholtz resonator arrays using the radiation impedance method</a>  
