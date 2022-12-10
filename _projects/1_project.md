@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Acoustic Meta-materials
+description: Design, modelling and fabrication of resonant absorbers and ventilated sound barriers.
+img: assets/img/nbbj_panel1.jpg
 importance: 1
 category: work
 ---
