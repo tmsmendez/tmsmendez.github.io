@@ -31,7 +31,5 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 ##### Publications
 
 <a href="https://asa.scitation.org/doi/10.1121/10.0009317">Design of broadband Helmholtz resonator arrays using the radiation impedance method</a>  
-
 <a href="https://asa.scitation.org/doi/abs/10.1121/10.0007930">Thin Helmholtz resonators for a broadband acoustic metamaterial</a>  
-
 <a href="https://asa.scitation.org/doi/abs/10.1121/1.5147793">Design of efficient low-frequency sound absorbers using an array of Helmholtz Resonators</a>  
