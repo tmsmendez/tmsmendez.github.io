@@ -4,7 +4,7 @@ title: Acoustic Meta-materials
 description: Design, modelling and fabrication of resonant absorbers and ventilated sound barriers.
 img: assets/img/nbbj_panel1.jpg
 importance: 1
-category: work
+category: 
 ---
 
 
@@ -26,5 +26,9 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 # Collaborators
 
 Vidhya Rajendran - UW Department of Architecture.
+
+
 Andy Piacsek - Central Washington University.
+
+
 NBBJ.
