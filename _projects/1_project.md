@@ -35,18 +35,18 @@ category:
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.  
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.  
+  
 
 ##### Credits
 
 
-<a href="https://www.linkedin.com/in/vidhyar28/">Vidhya Rajendran - UW Department of Architecture  </a>  
-<a href="https://www.cwu.edu/physics/andrew-piacsek">Andy Piacsek - Central Washington University </a>  
-<a href="https://www.nbbj.com/">NBBJ</a>  
+<a href="https://block.arch.ethz.ch/brg/">Block Research Group - ETH Zurich  </a>  
+<a href="https://systems.arch.ethz.ch/">Architecture and Building Systems Group - ETH Zurich </a>  
+<a href="https://www.rok-office.com/">ROK Architects</a>  
 
 
 ##### Publications
 
-<a href="https://asa.scitation.org/doi/10.1121/10.0009317">Design of broadband Helmholtz resonator arrays using the radiation impedance method</a>  
-<a href="https://asa.scitation.org/doi/abs/10.1121/10.0007930">Thin Helmholtz resonators for a broadband acoustic metamaterial</a>  
-<a href="https://asa.scitation.org/doi/abs/10.1121/1.5147793">Design of efficient low-frequency sound absorbers using an array of Helmholtz Resonators</a>  
+<a href="https://www.sciencedirect.com/science/article/pii/S2352012418301206?via%3Dihub">A Cable-Net and Fabric Formwork System for the Construction of Concrete Shells: Design, Fabrication and Construction of a Full Scale Prototype</a>  
+<a href="https://www.sciencedirect.com/science/article/pii/S235271021730342X?via%3Dihub">NEST HiLo: Investigating lightweight construction and adaptive energy systems</a>  
 
