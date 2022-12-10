@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: Some of my open-source projects / Python libraries.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## GitHub user
