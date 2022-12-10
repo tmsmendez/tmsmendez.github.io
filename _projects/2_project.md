@@ -2,14 +2,14 @@
 layout: page
 title: Embodied and operational carbon tradeoffs
 description: Multi-objective oriented design of building components for minimal carbon emissions..
-img: assets/img/timber_floor2.jpg
+img: assets/img/envelope.png
 importance: 2
 category: 
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/timber_floor2.png" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pareto.png" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
