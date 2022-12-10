@@ -32,10 +32,10 @@ category:
 
 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.  
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.  
+HiLo is a research and innovation unit designed as a collaborative and flexible workspace, built in on the NEST building of the Swiss Federal Laboratories for Materials Science and Technology (Empa) in Dübendorf, Switzerland. The aim of the HiLo unit is to demonstrate how embodied and operational energy in buildings can be drastically reduced by combining lightweight concrete structures, appropriate fabrication and construction methods with low-energy building systems.  
   
+The most visible innovation presented in HiLo is the roof, which is a carbon-fibre-mesh-reinforced, concrete sandwich shell structure. With a surface area of approximately 160 m2 and covering an open space of roughly 120 m2, the HiLo roof has an anticlastic doubly curved shape and is supported around the perimeter in five locations on two levels. The roof was built with a cable-net and fabric formwork system. It consists of a reusable steel scaffolding, a set timber boundary beams, a steel cable-net, fabric shuttering, and and edge clamps.
+
 
 ##### Credits
 
