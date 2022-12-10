@@ -23,8 +23,8 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 ##### Collaborators
 
 
-<a href="https://www.linkedin.com/in/vidhyar28/">Christopher Meek - UW Department of Architecture  </a>  
-<a href="https://www.cwu.edu/physics/andrew-piacsek">Teresa Moroseos - UW Department of Architecture University </a>  
+<a href="https://arch.be.uw.edu/people/chris-meek/">Christopher Meek - UW Department of Architecture  </a>  
+<a href="https://arch.be.uw.edu/people/teresa-moroseos/">Teresa Moroseos - UW Department of Architecture University </a>  
 
 
 ##### Publications

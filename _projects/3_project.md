@@ -2,14 +2,14 @@
 layout: page
 title: Mass Timber Vibroacoustics
 description: Design and vibroacoustic analysis of Mass Timber structures with complex geometry.
-img: assets/img/timber_floor2.jpg
+img: assets/img/timber_floor2.png
 importance: 3
 category: 
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/timber_floor2.jpg" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/timber_floor2.png" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,7 +23,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 ##### Collaborators
 
 
-<a href="https://www.linkedin.com/in/vidhyar28/">NB Roozen - KU Leuven  </a>  
+<a href="https://www.kuleuven.be/wieiswie/en/person/00083844">NB Roozen - KU Leuven  </a>  
 <a href="https://www.cwu.edu/physics/andrew-piacsek">Andy Piacsek - Central Washington University </a>  
 
 
