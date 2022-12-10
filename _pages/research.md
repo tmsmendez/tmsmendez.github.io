@@ -6,7 +6,7 @@ description: Research topics.
 nav: true
 nav_order: 1
 display_categories: 
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
