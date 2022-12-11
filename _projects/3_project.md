@@ -53,6 +53,9 @@ HiLo is a research and innovation unit designed as a collaborative and flexible 
 The most visible innovation presented in HiLo is the roof, which is a carbon-fibre-mesh-reinforced, concrete sandwich shell structure. With a surface area of approximately 160 m2 and covering an open space of roughly 120 m2, the HiLo roof has an anticlastic doubly curved shape and is supported around the perimeter in five locations on two levels. The roof was built with a cable-net and fabric formwork system. It consists of a reusable steel scaffolding, a set timber boundary beams, a steel cable-net, fabric shuttering, and and edge clamps.
 
 
+Location: Dübendorf, Switzerland  
+Year: 2021  
+
 ##### Credits
 
 

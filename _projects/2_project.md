@@ -7,8 +7,6 @@ importance: 1
 category: 
 ---
 
-Location: New York City, USA
-Year: 2015
 
 
 <div class="row">
@@ -54,6 +52,8 @@ The ETH pavillion was built for the Ideas city festival en New York City in the 
 The duration of the festival, as well as the location and budget for the pavilion presented the design team with very challenging constraints. These constrains would define, but not limit, the design and construction of the pavilion. The pavilion was designed to be built in the First street park, and as such, the park could not remain closed to the public for more than 3 days for assembly or demolition. The parks department of the city of New York would also not allow for any anchoring of the pavilion to the ground, or to the walls on its boundaries. The pavilion would only stand for 3 days. 
 
 
+Location: New York City, USA  
+Year: 2015  
 
 
 ##### Credits
