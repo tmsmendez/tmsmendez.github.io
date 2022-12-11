@@ -1,11 +1,15 @@
 ---
 layout: page
 title: ETH Pavillion
-description: Temporary exhibition shelter for the Ides City Festival in New York City.
+description: Temporary exhibition shelter for the Ideas City Festival in New York City.
 img: assets/img/nyc1.png
 importance: 1
 category: 
 ---
+
+Location: New York City, USA
+Year: 2015
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
