@@ -1,33 +1,66 @@
 ---
 layout: page
-title: Embodied and operational carbon tradeoffs
-description: Multi-objective oriented design of building components for minimal carbon emissions..
-img: assets/img/envelope.png
-importance: 2
+title: ETH Pavillion
+description: Temporary exhibition shelter for the Ides City Festival in New York City.
+img: assets/img/nyc1.png
+importance: 1
 category: 
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pareto.png" title="CLT resonant panel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/nyc1.png" title="nyc" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.  
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.  
-
-##### Collaborators
 
 
-<a href="https://arch.be.uw.edu/people/chris-meek/">Christopher Meek - UW Department of Architecture  </a>  
-<a href="https://arch.be.uw.edu/people/teresa-moroseos/">Teresa Moroseos - UW Department of Architecture University </a>  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/nyc6.png" title="nyc" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
-##### Publications
 
-<a href="https://www.sciencedirect.com/science/article/pii/S0378778822007605">On the tradeoffs between embodied and operational carbon in building envelope design: The impact of local climates and energy grids</a>  
-<a href="https://tmsmendez.github.io/assets/pdf/Designing%20for%20low%20emissions.pdf">Designing for low emissions</a>  
+The ETH pavillion was built for the Ideas city festival en New York City in the summer of 2015. The starting point of this pavilion was to demonstrate that good structural form, i.e. stability through geometry, allows building with weak materials, more extremely "building with waste". The context of the invited commission was a perfect fit: to design a temporary installation/pavilion to host events and lectures for the festival, which lasts only three days, and to be built on a public park.  
+
+The duration of the festival, as well as the location and budget for the pavilion presented the design team with very challenging constraints. These constrains would define, but not limit, the design and construction of the pavilion. The pavilion was designed to be built in the First street park, and as such, the park could not remain closed to the public for more than 3 days for assembly or demolition. The parks department of the city of New York would also not allow for any anchoring of the pavilion to the ground, or to the walls on its boundaries. The pavilion would only stand for 3 days. 
+
+With such strong time constraints, the only responsible approach to the design of the structure, was to build a pavilion that would not generate almost any waste, the pavilion would only use resources that could come out of the waste bin, or could go back to the market as reusable materials. Respecting the tight time limitations and requirements, the ETH Pavilion (figure \ref{view1}) was designed to waste a very limited amount of resources and that was easy and safe to assemble by students. 
+
+
+##### Credits
+
+
+<a href="https://block.arch.ethz.ch/brg/">Block Research Group - ETH Zurich  </a>  
+Assistant Professorship of Architecture and Construction Dirk E. Hebel -  ETH Zurich  
+
+
+##### Press
+
+<a href="https://www.dezeen.com/2015/06/01/eth-zurich-arched-pavilion-upcycled-beverage-cartons-new-york-ideas-city-recycled-sustainable-design/">Dezeen</a>  
+<a href="https://www.azuremagazine.com/article/a-pavilion-made-of-recycled-drink-cartons-at-ideas-city/">Azure Magazine</a>  
+
