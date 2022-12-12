@@ -48,9 +48,6 @@ category:
 </div>
 
 
-The Venice Biennale was very nice. 
-
-
 Location: Venice, Italy  
 Year: 2016  
 
