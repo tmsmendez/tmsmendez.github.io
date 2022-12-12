@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ETH Pavillion
-description: Pavillion at the Ideas City Festival in New York City.
+description: Pavillion for the Ideas City Festival in New York City.
 img: assets/img/nyc1.png
 importance: 1
 category: 
