@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acoustic insulation through structural stiffness
+title: Acoustic insulation via structural stiffness
 description: Vibro-acoustics of a concrete funicular floor system
 img: assets/img/vib1.png
 importance: 5
