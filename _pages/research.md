@@ -5,7 +5,7 @@ permalink: /research/
 description: Current research topics.
 nav: true
 nav_order: 1
-display_categories: [UW, ETH]
+display_categories: [UW, ETH, PoliTo]
 horizontal: false
 ---
 
