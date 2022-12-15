@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Funicular floor systems
-description: Reducing embodied carbon of building sttructures
+description: Reducing embodied carbon of building sttructures with compression only floor systems
 img: assets/img/venice3.png
 importance: 6
 category: ETH
