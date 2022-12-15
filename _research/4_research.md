@@ -26,3 +26,11 @@ category: ETH
 ##### Publications
 
 <a href="https://doi.org/10.1016/j.istruc.2018.10.004">A Cable-Net and Fabric Formwork System for the Construction of Concrete Shells: Design, Fabrication and Construction of a Full Scale Prototype</a>  
+
+
+<a href="https://tmsmendez.github.io/publications/">Full-scale prototype of a cable-net and fabric formed concrete thin-shell roof
+</a>  
+
+<a href="https://tmsmendez.github.io/publications/">
+A prototype of a thin, textile-reinforced concrete shell built using a novel, ultra-lightweight, flexible formwork system
+</a>  
