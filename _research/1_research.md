@@ -4,7 +4,7 @@ title: Acoustic Meta-materials
 description: Design, modelling and fabrication of resonant absorbers and ventilated sound barriers.
 img: assets/img/nbbj_panel1.png
 importance: 1
-category: 
+category: UW
 ---
 
 <div class="row">

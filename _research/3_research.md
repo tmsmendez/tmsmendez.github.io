@@ -4,7 +4,7 @@ title: Mass Timber Vibroacoustics
 description: Design and vibroacoustic analysis of Mass Timber structures with complex geometry.
 img: assets/img/timber_floor2.png
 importance: 3
-category: 
+category: UW
 ---
 
 <div class="row">
