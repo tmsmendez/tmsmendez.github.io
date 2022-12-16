@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Current research topics.
+description: Current and past research projects
 nav: true
 nav_order: 1
 display_categories: [UW, ETH, PoliTo]
