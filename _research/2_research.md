@@ -2,7 +2,7 @@
 layout: page
 title: Embodied and operational carbon tradeoffs
 description: Multi-objective oriented design of building components for minimal carbon emissions..
-img: assets/img/envelope.png
+img: assets/img/envelope2.png
 importance: 2
 category: UW
 ---
