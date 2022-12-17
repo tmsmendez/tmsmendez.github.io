@@ -47,8 +47,12 @@ Year: 2016
 
 
 <a href="https://block.arch.ethz.ch/brg/">Block Research Group - ETH Zurich  </a>  
-John John Ochsendorf - MIT  
-
+Red Line - EPFL  
+Norman Foster Foundation  
+ODB Engineering  
+CReA  
+Foster + Partners  
+Universidad Politécnica de Madrid  
 
 ##### Publications
 
