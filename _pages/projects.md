@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Built projects, pavilions and demonstrators.
+description: Selected projects, pavilions and demonstrators.
 nav: true
 nav_order: 2
 display_categories: 
