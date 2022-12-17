@@ -34,20 +34,6 @@ category:
 </div>
 
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proto6.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proto7.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/proto8.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/proto6.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -109,7 +95,17 @@ Year: 2017
 
 
 <a href="https://block.arch.ethz.ch/brg/">Block Research Group - ETH Zurich  </a>  
-John John Ochsendorf - MIT  
+<a href="https://supermanoeuvre.com/">supermanoeuvre  </a>  
+<a href="https://www.bollinger-grohmann.com/">Bollinger + Grohmann Ingenieure  </a>  
+Jakob  
+Bruno Lehmann  
+Blumer Lehmann  
+Dafotech  
+Bieri  
+Marti Construction SA  
+Bürgin Creations  
+
+
 
 
 ##### Publications
