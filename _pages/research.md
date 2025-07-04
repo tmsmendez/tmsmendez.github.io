@@ -5,7 +5,7 @@ permalink: /research/
 description: Current and past research projects
 nav: true
 nav_order: 1
-display_categories: [UW, ETH, PoliTo]
+# display_categories: [UW, ETH, PoliTo]
 horizontal: false
 ---
 
