@@ -37,16 +37,82 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },{id: "news-appointed-assistant-professor-at-the-uw-department-of-architecture",
+          title: 'Appointed Assistant Professor at the UW Department of Architecture',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-prof-méndez-echenagucia-awarded-a-uw-royalty-research-fund-grant",
+          title: 'Prof. Méndez Echenagucia awarded a UW Royalty Research Fund grant',
+          description: "",
+          section: "News",},{id: "news-former-student-vidhya-rajendran-recieves-2020-asa-meeting-best-student-paper",
+          title: 'Former student Vidhya Rajendran recieves 2020 ASA Meeting best student paper',
+          description: "",
+          section: "News",},{id: "news-new-article-by-fast-company-on-our-helmholtz-resonator-panels",
+          title: 'New Article by Fast company on our Helmholtz Resonator panels',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/2021-9-19.html";
+            },},{id: "news-the-hilo-unit-has-been-officially-opened",
+          title: 'The Hilo Unit has been officially opened',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-10-6.html";
+            },},{id: "news-prof-méndez-echenagucia-named-one-of-2021-most-creative-people-by-fast-company",
+          title: 'Prof. Méndez Echenagucia named one of 2021 Most creative people by Fast Company...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-10-8.html";
+            },},{id: "news-nathan-brown-and-vidhya-rajendran-present-our-work-at-asa-2021-seattle",
+          title: 'Nathan Brown and Vidhya Rajendran present our work at ASA 2021 Seattle',
+          description: "",
+          section: "News",},{id: "news-new-paper-out-on-jasa-on-the-design-of-thin-helmholtz-resonators",
+          title: 'New paper out on JASA on the design of thin Helmholtz Resonators',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-1-26.html";
+            },},{id: "news-uw-team-is-receives-arpa-e-grant",
+          title: 'UW Team is receives ARPA-e grant',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-3-31.html";
+            },},{id: "news-energy-and-buildings-paper-published",
+          title: 'Energy and Buildings paper published',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-11-3.html";
+            },},{id: "news-the-hilo-unit-receives-the-2022-arc-award",
+          title: 'The HiLo unit receives the 2022 ARC award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-11-6.html";
+            },},{id: "news-aia-seattle-award-of-merit",
+          title: 'AIA Seattle Award of Merit',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-11-7.html";
+            },},{id: "news-new-conference-paper-accepted-for-asce-2023",
+          title: 'New conference paper accepted for ASCE 2023!',
+          description: "",
+          section: "News",},{id: "news-new-conference-paper-accepted-for-eurodyn-2023-at-tu-delft",
+          title: 'New conference paper accepted for EURODYN 2023 at TU Delft!',
+          description: "",
+          section: "News",},{id: "news-new-conference-paper-accepted-in-forum-acusticum-2023",
+          title: 'New conference paper accepted in Forum Acusticum 2023!',
+          description: "",
+          section: "News",},{id: "news-new-book-chapter-published",
+          title: 'New Book chapter published!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-5-12.html";
+            },},{id: "news-new-conference-paper-in-the-asa-2024",
+          title: 'New conference paper in the ASA 2024!',
+          description: "",
+          section: "News",},{id: "news-new-paper-out-in-the-journal-of-exposure-science-amp-environmental-epidemiology",
+          title: 'New paper out in the Journal of Exposure Science &amp;amp; Environmental Epidemiology',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-6-12.html";
+            },},{id: "news-prof-méndez-echenagucia-promoted-to-associate-professor",
+          title: 'Prof. Méndez Echenagucia promoted to Associate Professor',
           description: "",
           section: "News",},{id: "projects-hilo-unit",
           title: 'HiLo Unit',
