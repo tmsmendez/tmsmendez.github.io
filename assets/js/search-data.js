@@ -30,21 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "news-appointed-assistant-professor-at-the-uw-department-of-architecture",
+        },{id: "news-appointed-assistant-professor-at-the-uw-department-of-architecture",
           title: 'Appointed Assistant Professor at the UW Department of Architecture',
           description: "",
           section: "News",},{id: "news-prof-méndez-echenagucia-awarded-a-uw-royalty-research-fund-grant",
