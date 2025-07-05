@@ -151,6 +151,41 @@ ninja.data = [{
           description: "Exhibition at the Seoul Biennale 2017",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
+            },},{id: "research-acoustic-meta-materials",
+          title: 'Acoustic Meta-materials',
+          description: "Design, modelling and fabrication of resonant absorbers and ventilated sound barriers.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/1_research.html";
+            },},{id: "research-embodied-and-operational-carbon-tradeoffs",
+          title: 'Embodied and operational carbon tradeoffs',
+          description: "Multi-objective oriented design of building components for minimal carbon emissions..",
+          section: "Research",handler: () => {
+              window.location.href = "/research/2_research.html";
+            },},{id: "research-mass-timber-vibroacoustics",
+          title: 'Mass Timber Vibroacoustics',
+          description: "Design and vibroacoustic analysis of Mass Timber structures with complex geometry.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/3_research.html";
+            },},{id: "research-cable-net-and-fabric-formwork-system",
+          title: 'Cable-net and fabric formwork system',
+          description: "Flexible and reusable formworks for concrete shells.",
+          section: "Research",handler: () => {
+              window.location.href = "/research/4_research.html";
+            },},{id: "research-acoustic-insulation-via-structural-stiffness",
+          title: 'Acoustic insulation via structural stiffness',
+          description: "Vibro-acoustics of a concrete funicular floor system",
+          section: "Research",handler: () => {
+              window.location.href = "/research/5_research.html";
+            },},{id: "research-funicular-floor-systems",
+          title: 'Funicular floor systems',
+          description: "Reducing embodied carbon of building sttructures with compression only floor systems",
+          section: "Research",handler: () => {
+              window.location.href = "/research/6_research.html";
+            },},{id: "research-building-envelope-design",
+          title: 'Building envelope design',
+          description: "Minimizing building heating, cooling and lighting energy performance",
+          section: "Research",handler: () => {
+              window.location.href = "/research/7_research.html";
             },},{
         id: 'social-email',
         title: 'email',
@@ -163,14 +198,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/tmsmendez", "_blank");
+          window.open("https://www.linkedin.com/in/tomas-mendez-echenagucia-40a9b912", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=OyDWXZwAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=tmsmendez@gmail.com", "_blank");
         },
       },{
       id: 'light-theme',
