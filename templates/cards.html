@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ page.title }}</h1>
+<p class="page-blurb">{{ page.blurb }}</p>
+{% for category, items in grouped %}
+  {% if category %}<h2 class="category">{{ category }}</h2>{% endif %}
+  <div class="card-grid">
+    {% for it in items %}
+    <a class="card" href="{{ base }}/{{ it.slug }}/">
+      {% if it.img %}
+      <div class="card-img"><img src="/{{ it.img }}" alt="{{ it.title }}" loading="lazy"></div>
+      {% endif %}
+      <div class="card-body">
+        <h3>{{ it.title }}</h3>
+        <p>{{ it.description }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+{% endfor %}
+{% endblock %}

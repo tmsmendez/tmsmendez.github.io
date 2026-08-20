@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>News</h1>
+<ul class="news-list full">
+  {% for n in news %}
+  <li>
+    <span class="news-date">{{ n.date_str }}</span>
+    <div class="news-body">
+      <span class="news-title">
+        {% if n.link %}<a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
+        {% else %}{{ n.title }}{% endif %}
+      </span>
+      {% if n.body_html %}<div class="news-extra">{{ n.body_html | safe }}</div>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
