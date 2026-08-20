@@ -35,6 +35,10 @@ ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "_site"
 
+# Publications whose `status` field matches one of these are left out of the
+# site (the entries stay in publications.bib). Empty the tuple to show them.
+HIDDEN_PUB_STATUSES = ("in review", "in preparation")
+
 SITE = {
     "title": "Tomás Méndez Echenagucia",
     "subtitle": "Associate Professor — University of Washington",
@@ -43,7 +47,12 @@ SITE = {
     "github": "https://github.com/tmsmendez",
     "scholar": "https://scholar.google.com/citations?user=xxL2xkkAAAAJ",
     "department": "Department of Architecture, College of Built Environments",
-    "cv_pdf": "/assets/pdf/cv_TiME.pdf",
+    # accent color — change these four values to re-skin the whole site.
+    # They override the defaults in assets/css/main.css on every page.
+    "accent": "#1b365d",              # links, buttons, headings (light mode)
+    "accent_soft": "#2f5d94",         # hover / secondary (light mode)
+    "accent_dark": "#7fabdd",         # links, buttons, headings (dark mode)
+    "accent_soft_dark": "#a6c6ec",    # hover / secondary (dark mode)
     "author_names": [  # variants of the site owner's name, bolded in publication lists
         "Méndez Echenagucia",
         "Mendez Echenagucia",
@@ -228,13 +237,15 @@ def build_publications():
     entries = parse_bib(ROOT / "publications.bib")
     pubs = []
     for e in entries:
+        status = e.get("status", "")
+        if status.strip().lower() in HIDDEN_PUB_STATUSES:
+            continue
         year = e.get("year", "n.d.")
         title = delatex(e.get("title", "Untitled"))
         link = e.get("html") or e.get("url") or (
             "https://doi.org/" + e["doi"].replace("https://doi.org/", "")
             if e.get("doi") else None
         )
-        status = e.get("status", "")
         preview = e.get("preview")
         pubs.append({
             "key": e["key"],

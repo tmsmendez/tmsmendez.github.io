@@ -44,7 +44,9 @@ understands:
   (reuse the same file for the same journal/conference)
 - `html = {https://...}` — the link the title points to
 - `pdf = {file.pdf}` — a PDF in `assets/pdf/`
-- `status = {In Review}` — shows a badge (e.g. In Review / In Preparation)
+- `status = {In Review}` / `status = {In Preparation}` — the entry is **hidden**
+  from the site (it stays in the .bib). The list of hidden statuses is
+  `HIDDEN_PUB_STATUSES` in `build.py`; any other status shows as a badge.
 
 ### A research topic or project
 
@@ -64,6 +66,13 @@ gallery:                             # optional image grid, one row per line
 Body text in plain markdown. Use `#### Collaborators`, `#### Publications`,
 `#### Press` headings with bullet lists of links.
 ```
+
+## Accent color
+
+The site's accent color lives in the `SITE` dict at the top of **`build.py`**
+(`accent`, `accent_soft`, `accent_dark`, `accent_soft_dark`). Those four values
+are injected into every page and override the defaults in
+`assets/css/main.css`. Change them there to re-skin the whole site.
 
 ## Building locally
 

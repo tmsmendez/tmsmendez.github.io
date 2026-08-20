@@ -1,32 +1,34 @@
 /* ==========================================================================
    tmsmendez.github.io — hand-written, dependency-free stylesheet
-   Accent color: UW purple (#4b2e83) with gold (#b7a57a) details
+   Accent color: dark blue (#1b365d) with gold (#b7a57a) details.
+   The accent can be overridden from build.py (SITE["accent"] etc.),
+   which injects a :root override into every page.
    ========================================================================== */
 
 :root {
   --bg: #ffffff;
-  --bg-soft: #f7f6f9;
+  --bg-soft: #f5f7fa;
   --text: #24222a;
   --text-soft: #5f5c68;
-  --accent: #4b2e83;
-  --accent-soft: #6b4fa3;
+  --accent: #1b365d;
+  --accent-soft: #2f5d94;
   --gold: #b7a57a;
-  --border: #e6e3ec;
+  --border: #e2e6ee;
   --card-shadow: 0 1px 2px rgba(36, 34, 42, .06), 0 4px 14px rgba(36, 34, 42, .05);
-  --card-shadow-hover: 0 2px 4px rgba(36, 34, 42, .08), 0 10px 28px rgba(75, 46, 131, .16);
+  --card-shadow-hover: 0 2px 4px rgba(36, 34, 42, .08), 0 10px 28px rgba(27, 54, 93, .16);
   --max: 980px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17151d;
-    --bg-soft: #201d29;
-    --text: #e8e6ee;
-    --text-soft: #a9a5b6;
-    --accent: #a98fe0;
-    --accent-soft: #c1acef;
+    --bg: #14181f;
+    --bg-soft: #1c222c;
+    --text: #e6e9ee;
+    --text-soft: #a5adb9;
+    --accent: #7fabdd;
+    --accent-soft: #a6c6ec;
     --gold: #cdbd94;
-    --border: #322e3f;
+    --border: #2c3440;
     --card-shadow: 0 1px 2px rgba(0, 0, 0, .4);
     --card-shadow-hover: 0 6px 24px rgba(0, 0, 0, .55);
   }

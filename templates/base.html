@@ -7,6 +7,13 @@
   <meta name="description" content="Tomás Méndez Echenagucia — Associate Professor, University of Washington. Computational design, building acoustics, and low-carbon construction.">
   <link rel="icon" href="/assets/img/uw.png">
   <link rel="stylesheet" href="/assets/css/main.css">
+  {# accent color comes from SITE in build.py; see assets/css/main.css for defaults #}
+  <style>
+    :root { --accent: {{ site.accent }}; --accent-soft: {{ site.accent_soft }}; }
+    @media (prefers-color-scheme: dark) {
+      :root { --accent: {{ site.accent_dark }}; --accent-soft: {{ site.accent_soft_dark }}; }
+    }
+  </style>
 </head>
 <body>
 <header class="site-header">
@@ -18,7 +25,6 @@
       <a href="/publications/" {% if page.nav == 'publications' %}class="active"{% endif %}>publications</a>
       <a href="/projects/" {% if page.nav == 'projects' %}class="active"{% endif %}>projects</a>
       <a href="/news/" {% if page.nav == 'news' %}class="active"{% endif %}>news</a>
-      <a href="{{ site.cv_pdf }}" target="_blank" rel="noopener">cv</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('site-nav').classList.toggle('open')">☰</button>
   </div>
