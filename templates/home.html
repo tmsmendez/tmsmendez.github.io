@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ site.title }}</h1>
+    <p class="subtitle">{{ site.subtitle }}</p>
+    <div class="about-body">{{ about | safe }}</div>
+    <p class="hero-links">
+      <a class="btn" href="/research/">Research</a>
+      <a class="btn" href="/publications/">Publications</a>
+      <a class="btn ghost" href="{{ site.cv_pdf }}" target="_blank" rel="noopener">Download CV</a>
+    </p>
+  </div>
+  <figure class="hero-photo">
+    <img src="/assets/img/prof_pic.jpg" alt="Portrait of Tomás Méndez Echenagucia">
+  </figure>
+</section>
+
+<section class="home-news">
+  <div class="section-head">
+    <h2>News</h2>
+    <a class="more" href="/news/">all news →</a>
+  </div>
+  <ul class="news-list">
+    {% for n in news %}
+    <li>
+      <span class="news-date">{{ n.date_str }}</span>
+      <span class="news-title">
+        {% if n.link %}<a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
+        {% else %}{{ n.title }}{% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Publications</h1>
+<p class="page-blurb">{{ count }} publications. Generated from <code>publications.bib</code>.</p>
+<input type="search" id="pub-search" class="pub-search" placeholder="Filter by title, author or venue…" autocomplete="off">
+
+<div class="publications">
+{% for year, items in grouped %}
+  <section class="pub-year" data-year="{{ year }}">
+    <h2 class="year">{{ year }}</h2>
+    {% for p in items %}
+    <div class="pub" data-search="{{ (p.title ~ ' ' ~ p.authors ~ ' ' ~ p.venue) | striptags | lower }}">
+      <div class="pub-preview">
+        {% if p.preview %}<img src="{{ p.preview }}" alt="" loading="lazy">{% endif %}
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">
+          {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>
+          {% else %}{{ p.title }}{% endif %}
+          {% if p.status %}<span class="badge">{{ p.status }}</span>{% endif %}
+        </div>
+        <div class="pub-authors">{{ p.authors | safe }}</div>
+        <div class="pub-venue"><em>{{ p.venue }}</em>{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}: {{ p.pages }}{% endif %}</div>
+        <div class="pub-links">
+          {% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">HTML</a>{% endif %}
+          {% if p.pdf %}<a href="/assets/pdf/{{ p.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+          <button class="bib-toggle" onclick="this.closest('.pub').querySelector('.bibtex').classList.toggle('open')">BIB</button>
+        </div>
+        <pre class="bibtex">{{ p.bibtex }}</pre>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+{% endfor %}
+</div>
+
+<script>
+document.getElementById('pub-search').addEventListener('input', function () {
+  var q = this.value.toLowerCase().trim();
+  document.querySelectorAll('.pub').forEach(function (p) {
+    p.style.display = p.dataset.search.indexOf(q) !== -1 ? '' : 'none';
+  });
+  document.querySelectorAll('.pub-year').forEach(function (s) {
+    var any = Array.prototype.some.call(s.querySelectorAll('.pub'),
+      function (p) { return p.style.display !== 'none'; });
+    s.style.display = any ? '' : 'none';
+  });
+});
+</script>
+{% endblock %}

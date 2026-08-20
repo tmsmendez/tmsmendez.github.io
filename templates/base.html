@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.nav != 'about' %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="Tomás Méndez Echenagucia — Associate Professor, University of Washington. Computational design, building acoustics, and low-carbon construction.">
+  <link rel="icon" href="/assets/img/uw.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/"><span class="accent">Tomás</span> Méndez Echenagucia</a>
+    <nav class="site-nav" id="site-nav">
+      <a href="/" {% if page.nav == 'about' %}class="active"{% endif %}>about</a>
+      <a href="/research/" {% if page.nav == 'research' %}class="active"{% endif %}>research</a>
+      <a href="/publications/" {% if page.nav == 'publications' %}class="active"{% endif %}>publications</a>
+      <a href="/projects/" {% if page.nav == 'projects' %}class="active"{% endif %}>projects</a>
+      <a href="/news/" {% if page.nav == 'news' %}class="active"{% endif %}>news</a>
+      <a href="{{ site.cv_pdf }}" target="_blank" rel="noopener">cv</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('site-nav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© {{ site.year }} Tomás Méndez Echenagucia · {{ site.department }}</span>
+    <span class="footer-links">
+      <a href="mailto:{{ site.email }}">email</a> ·
+      <a href="{{ site.github }}" target="_blank" rel="noopener">github</a> ·
+      <a href="{{ site.scholar }}" target="_blank" rel="noopener">scholar</a>
+    </span>
+  </div>
+</footer>
+</body>
+</html>

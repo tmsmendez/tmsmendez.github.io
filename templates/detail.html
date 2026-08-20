@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="detail">
+  <h1>{{ item.title }}</h1>
+  <p class="page-blurb">{{ item.description }}</p>
+  {% if item.gallery %}
+  <div class="gallery">
+    {% for row in item.gallery %}
+    <div class="gallery-row cols-{{ row | length }}">
+      {% for img in row %}
+      <figure><img src="/assets/img/{{ img }}" alt="{{ item.title }}" loading="lazy"></figure>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if item.caption %}<p class="caption">{{ item.caption }}</p>{% endif %}
+  {% endif %}
+  <div class="detail-body">
+    {{ item.body_html | safe }}
+  </div>
+</article>
+{% endblock %}
