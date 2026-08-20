@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+<rect width="640" height="400" fill="#4b2e83"/>
+<g opacity="0.9">
+  <rect x="70" y="240" width="60" height="100" fill="#b7a57a"/>
+  <rect x="150" y="190" width="60" height="150" fill="#cdbd94"/>
+  <rect x="230" y="150" width="60" height="190" fill="#e0d4b4"/>
+  <rect x="310" y="210" width="60" height="130" fill="#cdbd94"/>
+  <rect x="390" y="120" width="60" height="220" fill="#e8dfc6"/>
+  <polyline points="100,225 180,175 260,135 340,195 420,105" fill="none"
+            stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="225" r="9" fill="#fff"/><circle cx="180" cy="175" r="9" fill="#fff"/>
+  <circle cx="260" cy="135" r="9" fill="#fff"/><circle cx="340" cy="195" r="9" fill="#fff"/>
+  <circle cx="420" cy="105" r="9" fill="#fff"/>
+</g>
+<text x="70" y="80" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#ffffff">POD | LCA</text>
+</svg>
