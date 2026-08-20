@@ -45,7 +45,7 @@ SITE = {
     "url": "https://tmsmendez.github.io",
     "email": "tmendeze@uw.edu",
     "github": "https://github.com/tmsmendez",
-    "scholar": "https://scholar.google.com/citations?user=xxL2xkkAAAAJ",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=OyDWXZwAAAAJ",
     "department": "Department of Architecture, College of Built Environments",
     # accent color — change these four values to re-skin the whole site.
     # They override the defaults in assets/css/main.css on every page.
