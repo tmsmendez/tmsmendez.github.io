@@ -1,7 +1,7 @@
 ---
 title: Machine learning surrogates for vibro-acoustics
 description: Neural network models that predict the acoustic behaviour of building components in milliseconds.
-img: assets/img/vib1.png
+img: assets/img/card_vibro_surrogates.jpg
 importance: 7
 category: University of Washington
 ---
@@ -10,8 +10,7 @@ High-fidelity vibro-acoustic simulation is far too slow for early-stage design e
 
 #### Collaborators
 
-- Mohammad Tabatabaei Manesh, Tsz Kam-Ming — UW
-- [Narjes Abbasabadi — UW Department of Architecture](https://arch.be.uw.edu/people/narjes-abbasabadi/)
+- Mohammad Tabatabaei Manesh
 
 #### Publications
 
