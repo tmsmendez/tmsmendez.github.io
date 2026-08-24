@@ -8,7 +8,7 @@ category: Politecnico di Torino
 
 In performance spaces the surfaces that carry the loads are also the surfaces that shape the sound, and the two rarely ask for the same geometry. This doctoral research treated them as one design problem: hall and shell geometry was parameterised and searched with genetic algorithms against structural criteria and objective room acoustic parameters — early decay time, clarity (C80) and sound strength (G) — producing Pareto sets of forms rather than a single "optimal" shape.
 
-The work ran across three scales. Concrete shell roofs were form-found for structural efficiency and acoustic response at once, in a paper awarded the Hangai Prize of the International Association for Shell and Spatial Structures (IASS) in 2008. Inside the hall, complex curved ceiling reflectors were designed interactively against the same acoustic parameters, which also required examining how geometrical representation — NURBS versus mesh — affects the accuracy of ray-tracing simulation. Outdoors, where no room returns energy to the stage, free-field acoustic shells were shaped with sound strength as the driving objective, a method later applied to the contemporary reuse of classical open-air theatres.
+The work ran across three scales. Concrete shell roofs were form-found for structural efficiency and acoustic response at once, in a paper awarded the Hangai Prize of the International Association for Shell and Spatial Structures (IASS) in 2008. Inside the hall, complex curved ceiling reflectors were designed interactively against the same acoustic parameters, with the designer steering a search rather than waiting on overnight simulation runs. Outdoors, where no room returns energy to the stage, free-field acoustic shells were shaped with sound strength as the driving objective, a method later applied to the contemporary reuse of classical open-air theatres.
 
 #### Collaborators
 
@@ -26,5 +26,4 @@ The work ran across three scales. Concrete shell roofs were form-found for struc
 - [Architectural acoustic and structural form (Journal of the IASS)](/publications/)
 - [Multi-objective acoustic and structural design of shell structures for concert halls (IASS-SLTE 2014)](/publications/)
 - [Interactive design methods for complex curved reflectors in concert halls (ISRA 2013)](/publications/)
-- [NURBS and mesh geometry in room acoustic ray-tracing simulation (AIA-DAGA 2013)](/publications/)
 - [Computational design: acoustic shells for ancient theatres (Forum Acusticum 2020)](/publications/)
