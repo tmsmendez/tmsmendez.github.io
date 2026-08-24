@@ -1,7 +1,7 @@
 ---
 title: Algal biofoams for acoustic absorption
 description: Biodegradable, self-extinguishing foams made from algae for broadband sound absorption.
-img: assets/img/card_biofoam.png
+img: assets/img/card_biofoam.jpg
 importance: 6
 category: University of Washington
 gallery:
