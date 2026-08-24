@@ -1,9 +1,11 @@
 ---
 title: Acoustic and structural form finding
 description: Multi-objective search for shells, auditoria and acoustic shells driven by sound and structure.
-img: assets/img/card_acoustic_form.svg
+img: assets/img/acu_struct_shell.jpg
 importance: 12
 category: Politecnico di Torino
+gallery:
+  - [acu_struct_shell.jpg]
 ---
 
 In performance spaces the surfaces that carry the loads are also the surfaces that shape the sound, and the two rarely ask for the same geometry. This doctoral research treated them as one design problem: hall and shell geometry was parameterised and searched with genetic algorithms against structural criteria and objective room acoustic parameters — early decay time, clarity (C80) and sound strength (G) — producing Pareto sets of forms rather than a single "optimal" shape.

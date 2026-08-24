@@ -1,9 +1,11 @@
 ---
 title: Geometry accuracy in acoustic simulation
 description: How NURBS and mesh representations change the results of room acoustic ray tracing.
-img: assets/img/card_raytracing.svg
+img: assets/img/nubrsvmesh.png
 importance: 14
 category: Politecnico di Torino
+gallery:
+  - [nubrsvmesh.png]
 ---
 
 Room acoustic ray tracing is usually run on triangulated meshes, because intersecting a ray with a triangle is cheap. But a curved reflector approximated by facets is not the reflector that was designed: each facet sends its rays off in a slightly wrong direction, and the errors accumulate over successive reflections. For halls whose acoustics depend on doubly curved surfaces — exactly the geometries that form-finding produces — this turns a modelling convention into a source of error in the result.
