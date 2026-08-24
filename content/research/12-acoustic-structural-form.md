@@ -5,7 +5,10 @@ img: assets/img/acu_struct_shell.jpg
 importance: 12
 category: Politecnico di Torino
 gallery:
-  - [acu_struct_shell.jpg]
+  - [results7-02.jpg]
+  - [results3-02.jpg, results4-02.jpg]
+  - [results5-02.jpg, results6-02.jpg]
+
 ---
 
 In performance spaces the surfaces that carry the loads are also the surfaces that shape the sound, and the two rarely ask for the same geometry. This doctoral research treated them as one design problem: hall and shell geometry was parameterised and searched with genetic algorithms against structural criteria and objective room acoustic parameters — early decay time, clarity (C80) and sound strength (G) — producing Pareto sets of forms rather than a single "optimal" shape.
