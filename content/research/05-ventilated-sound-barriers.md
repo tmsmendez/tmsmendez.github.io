@@ -4,6 +4,8 @@ description: Fano-like acoustic barriers that block noise while letting air flow
 img: assets/img/card_barriers.jpg
 importance: 5
 category: University of Washington
+gallery:
+  - [card_barriers.jpg]
 ---
 
 Natural ventilation and noise control are usually at odds: openings that admit air also admit sound. This project designs ventilated sound barriers for building facades based on Fano-like interference — metamaterial arrays that attenuate targeted noise bands while remaining open to airflow. The work combines experimental prototypes, numerical models, and surrogate/machine learning models that make the design space searchable at interactive speeds.
