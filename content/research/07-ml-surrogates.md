@@ -5,7 +5,9 @@ img: assets/img/card_vibro_surrogates.jpg
 importance: 7
 category: University of Washington
 gallery:
-  - [card_vibro_surrogates.jpg, vibro_surrogates_01.jpg, vibro_surrogates_02.jpg]
+  - [card_vibro_surrogates.jpg] 
+  - [vibro_surrogates_02.jpg]
+  - [vibro_surrogates_01.jpg]
 ---
 
 
