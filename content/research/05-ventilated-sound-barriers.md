@@ -1,7 +1,7 @@
 ---
 title: Ventilated metamaterial sound barriers
 description: Fano-like acoustic barriers that block noise while letting air flow through.
-img: assets/img/card_barriers.svg
+img: assets/img/card_barriers.jpg
 importance: 5
 category: University of Washington
 ---
