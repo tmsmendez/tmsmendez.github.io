@@ -1,38 +1,30 @@
 /* ==========================================================================
    tmsmendez.github.io — hand-written, dependency-free stylesheet
-   Accent color: dark blue (#1b365d) with gold (#b7a57a) details.
+   Accent color: dark blue (#1b365d) with light gray rules (#d4d7dd).
    The accent can be overridden from build.py (SITE["accent"] etc.),
    which injects a :root override into every page.
    ========================================================================== */
 
 :root {
+  /* light only: the pages are image-heavy and the photographs are made for a
+     white ground. `only light` also opts out of Chrome's Auto dark theme on
+     Android, which would otherwise force-invert the page. */
+  color-scheme: only light;
   --bg: #ffffff;
   --bg-soft: #f5f7fa;
   --text: #24222a;
   --text-soft: #5f5c68;
   --accent: #1b365d;
   --accent-soft: #2f5d94;
-  --gold: #b7a57a;
+  --rule: #d4d7dd;          /* underlines: nav active state, category headings */
   --border: #e2e6ee;
   --card-shadow: 0 1px 2px rgba(36, 34, 42, .06), 0 4px 14px rgba(36, 34, 42, .05);
   --card-shadow-hover: 0 2px 4px rgba(36, 34, 42, .08), 0 10px 28px rgba(27, 54, 93, .16);
   --max: 980px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14181f;
-    --bg-soft: #1c222c;
-    --text: #e6e9ee;
-    --text-soft: #a5adb9;
-    --accent: #7fabdd;
-    --accent-soft: #a6c6ec;
-    --gold: #cdbd94;
-    --border: #2c3440;
-    --card-shadow: 0 1px 2px rgba(0, 0, 0, .4);
-    --card-shadow-hover: 0 6px 24px rgba(0, 0, 0, .55);
-  }
-}
+/* No `prefers-color-scheme: dark` block here on purpose — see the note in
+   :root above. Adding one back would darken the pages behind the PNGs. */
 
 * { box-sizing: border-box; }
 
@@ -82,7 +74,7 @@ code { background: var(--bg-soft); padding: .1em .35em; border-radius: 4px; font
 .site-nav { display: flex; gap: 1.1rem; }
 .site-nav a { color: var(--text-soft); font-size: .95rem; padding: .2rem 0; }
 .site-nav a:hover { color: var(--accent); text-decoration: none; }
-.site-nav a.active { color: var(--accent); font-weight: 600; border-bottom: 2px solid var(--gold); }
+.site-nav a.active { color: var(--accent); font-weight: 600; border-bottom: 2px solid var(--rule); }
 
 .nav-toggle { display: none; background: none; border: none; font-size: 1.3rem; color: var(--text); cursor: pointer; }
 
@@ -148,7 +140,7 @@ code { background: var(--bg-soft); padding: .1em .35em; border-radius: 4px; font
 
 .page-blurb { color: var(--text-soft); margin-top: 0; }
 h2.category {
-  color: var(--accent); border-bottom: 2px solid var(--gold);
+  color: var(--accent); border-bottom: 2px solid var(--rule);
   padding-bottom: .25rem; margin-top: 2.4rem;
 }
 

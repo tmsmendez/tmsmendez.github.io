@@ -3,16 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
   <title>{% if page.title and page.nav != 'about' %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="Tomás Méndez Echenagucia — Associate Professor, University of Washington. Computational design, building acoustics, and low-carbon construction.">
   <link rel="icon" href="/assets/img/uw.png">
   <link rel="stylesheet" href="/assets/css/main.css">
-  {# accent color comes from SITE in build.py; see assets/css/main.css for defaults #}
+  {# accent color comes from SITE in build.py; see assets/css/main.css for defaults.
+     The site is light-only, so there is no dark-mode override here. #}
   <style>
     :root { --accent: {{ site.accent }}; --accent-soft: {{ site.accent_soft }}; }
-    @media (prefers-color-scheme: dark) {
-      :root { --accent: {{ site.accent_dark }}; --accent-soft: {{ site.accent_soft_dark }}; }
-    }
   </style>
 </head>
 <body>

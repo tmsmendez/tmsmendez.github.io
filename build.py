@@ -47,12 +47,12 @@ SITE = {
     "github": "https://github.com/tmsmendez",
     "scholar": "https://scholar.google.com/citations?hl=en&user=OyDWXZwAAAAJ",
     "department": "Department of Architecture, College of Built Environments",
-    # accent color — change these four values to re-skin the whole site.
+    # accent color — change these two values to re-skin the whole site.
     # They override the defaults in assets/css/main.css on every page.
-    "accent": "#1b365d",              # links, buttons, headings (light mode)
-    "accent_soft": "#2f5d94",         # hover / secondary (light mode)
-    "accent_dark": "#7fabdd",         # links, buttons, headings (dark mode)
-    "accent_soft_dark": "#a6c6ec",    # hover / secondary (dark mode)
+    # The site renders light on every device (no dark palette), so there are
+    # no dark-mode counterparts here.
+    "accent": "#1b365d",              # links, buttons, headings
+    "accent_soft": "#2f5d94",         # hover / secondary
     "author_names": [  # variants of the site owner's name, bolded in publication lists
         "Méndez Echenagucia",
         "Mendez Echenagucia",
